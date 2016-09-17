@@ -1,7 +1,7 @@
 /* within 0~480 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-    /*#mobile-warn {
+  /*#mobile-warn {
         width: 300px;
         height: 300px;
         position: absolute;
@@ -14,272 +14,200 @@
         background-color: rgba(255, 255, 255, 0.84);
         background: url(../assets/img/mobile-ready.png);
     }*/
-    
-    #app-content {
-        width: 320px;
-        height: auto;
-        position: absolute;
-        margin: 90px auto auto auto;
-        left: 0;
-        right: 0;
-    }
+  #app-content {
+    width: 320px;
+    height: auto;
+    position: absolute;
+    margin: 90px auto auto auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 
 /* within 480~960*/
 
 @media (min-width: 481px) and (max-width: 960px) {
-    #app-content {
-        width: 480px;
-        height: auto;
-        position: absolute;
-        margin: 90px auto auto auto;
-        left: 0;
-        right: 0;
-    }
+  #app-content {
+    width: 480px;
+    height: auto;
+    position: absolute;
+    margin: 90px auto auto auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 
 /* within 960~1280*/
 
 @media (min-width: 961px) and (max-width: 1280px) {
-    #app-content {
-        width: 960px;
-        height: auto;
-        position: absolute;
-        margin: 90px auto auto auto;
-        left: 0;
-        right: 0;
-    }
+  #app-content {
+    width: 960px;
+    height: auto;
+    position: absolute;
+    margin: 90px auto auto auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 
 /* within 1280~1600*/
 
 @media (min-width: 1281px) and (max-width: 1600px) {
-    #app-content {
-        width: 1280px;
-        height: auto;
-        position: absolute;
-        margin: 90px auto auto auto;
-        left: 0;
-        right: 0;
-    }
+  #app-content {
+    width: 1280px;
+    height: auto;
+    position: absolute;
+    margin: 90px auto auto auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 
 /* within 1600 and up*/
 
 @media (min-width: 1601px) {
-    #app-content {
-        width: 1600px;
-        height: auto;
-        position: absolute;
-        margin: 90px auto auto auto;
-        left: 0;
-        right: 0;
-    }
-}
-
-
-/*
-#header {
-    width: 100%;
-    height: 200px;
-    position: fixed;
-    top: 0;
+  #app-content {
+    width: 1600px;
+    height: auto;
+    position: absolute;
+    margin: 90px auto auto auto;
     left: 0;
     right: 0;
-    z-index: 5000;
-    
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    
-    background-color: #17202A;
+  }
 }
-
-#app-user-logo {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-    border-radius: 50%;
-    float: left;
-    
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    
-    background-color: cornflowerblue;
-}
-
-
-
-.app-user-info {
-    width: 100%;
-    height: 100%;
-    float: left;
-    display: inline-block;
-}
-
-#app-content {
-    width: 100%;
-    height: auto;
-    margin-top: 200px;
-    background-color: white;
-}
-
-.app-content-aligner {
-    margin: 5px;
-    margin-top: 5px;
-    
-    color: rgba(0, 0, 0, 1);
-}
-
-#user-name-txt {
-    width: 100%;
-    height: auto;
-}
-
-#app-user-txt {
-    width: auto;
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    font-size: 24px;
-} */
 
 #app-heading-wrap {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    z-index: 5000;
-    background-color: rgba(52, 73, 94, 0.84);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 5000;
+  background-color: rgba(52, 73, 94, 0.84);
 }
 
 #app-sidebar {
-    width: 60px;
-    height: 225px;
-    position: fixed;
-    left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    top: 0;
-    bottom: 0;
-    border-bottom-right-radius: 2px;
-    border-top-right-radius: 2px;
-    background-color: rgba(52, 73, 94, 0.84);
+  width: 60px;
+  height: 225px;
+  position: fixed;
+  left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: rgba(52, 73, 94, 0.84);
 }
 
 .app-sidebtns {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    text-align: center;
-    line-height: 60px;
-    text-decoration: none;
-    list-style: none;
-    background-color: rgba(44, 62, 80, 0.84);
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgba(44, 62, 80, 0.84);
 }
 
 #app-main-header {
-    width: 100%;
-    height: 50px;
-    float: left;
-    background-color: rgba(52, 73, 94, 1);
-    display: inline-block;
+  width: 100%;
+  height: 50px;
+  float: left;
+  background-color: rgba(52, 73, 94, 1);
+  display: inline-block;
 }
 
 #app-config-header {
-    width: 100%;
-    height: 30px;
-    float: left;
-    background-color: rgba(41, 128, 185, 0.84);
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color: rgba(41, 128, 185, 0.84);
 }
 
 #app-signout-btn {
-    width: 80px;
-    height: 30px;
-    margin: 10px;
-    float: right;
-    border-radius: 15px;
-    background-color: rgba(231, 76, 60, 1);
-    cursor: pointer;
-    line-height: 30px;
-    text-align: center;
-    color: rgba(192, 57, 43, 1);
-    right: 0;
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  float: right;
+  border-radius: 15px;
+  background-color: rgba(231, 76, 60, 1);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(192, 57, 43, 1);
+  right: 0;
 }
 
 #app-signout-btn:hover {
-    background-color: rgba(231, 76, 60, 0.84);
+  background-color: rgba(231, 76, 60, 0.84);
 }
 
 .group-deletebtn {
-    width: auto;
-    height: 20px;
-    margin: 5px;
-    float: right;
-    border-style: none;
-    border-radius: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-    background-color: rgba(231, 76, 60, 1);
-    cursor: pointer;
-    line-height: 20px;
-    color: rgba(192, 57, 43, 1);
+  width: auto;
+  height: 20px;
+  margin: 5px;
+  float: right;
+  border-style: none;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgba(231, 76, 60, 1);
+  cursor: pointer;
+  line-height: 20px;
+  color: rgba(192, 57, 43, 1);
 }
 
 .group-btn-wrap {
-    width: 236px;
-    height: 125px;
-    margin: 2px;
-    float: left;
+  width: 236px;
+  height: 125px;
+  margin: 2px;
+  float: left;
 }
 
 .group-submitbtn {
-    width: 236px;
-    height: 100px;
-    border-style: none;
-    border-radius: 2px;
-    float: left;
-    background-color: rgb(52, 73, 94);
-    color: rgba(255, 255, 255, 0.84);
-    font-weight: 600;
+  width: 236px;
+  height: 100px;
+  border-style: none;
+  border-radius: 2px;
+  float: left;
+  background-color: rgb(52, 73, 94);
+  color: rgba(255, 255, 255, 0.84);
+  font-weight: 600;
 }
 
 .group-deletebtn:hover {
-    background-color: rgba(231, 76, 60, 0.84);
+  background-color: rgba(231, 76, 60, 0.84);
 }
+
 #app-user-wrap {
-    width: 200px;
-    height: 40px;
-    margin: 5px;
-    border-radius: 20px;
-    float: right;
-    display:block;
-    background-color: rgb(44, 62, 80);
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 20px;
+  float: right;
+  display: block;
+  background-color: rgb(44, 62, 80);
 }
 
 #user-logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: beige;
-    display: inline-block;
-    float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: beige;
+  display: inline-block;
+  float: left;
 }
 
 #user-username {
-    width: auto;
-    height: 40px;
-    line-height: 40px;
-    text-align: left;
-    text-indent: 5px;
-    color: rgba(255, 255, 255, 0.84);
-    display: inline-block;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  text-indent: 5px;
+  color: rgba(255, 255, 255, 0.84);
+  display: inline-block;
 }

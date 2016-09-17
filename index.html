@@ -12,76 +12,65 @@
 <html>
 
 <head>
-    <title>todo</title>
+  <title>signin-page</title>
 
-    <meta charset="UTF-8">
-    <meta name="description" content="APPNAME">
-    <meta name="author" content="mi6softlab">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <script src="js/jquery-3.0.0.js"></script>
+  <meta charset="UTF-8">
+  <meta name="description" content="APPNAME">
+  <meta name="author" content="mi6softlab">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <script src="js/jquery-3.0.0.js"></script>
 
 </head>
 
 <body>
-    <!--bgimg-->
-    <div class="bg-img"></div>
+  <!--bgimg-->
+  <div class="bg-img"></div>
 
-    <div class="login-wrapper">
-        <div class="login-content">
-            <input class="input-login loginbtn" type="button" value="Sign in" onclick="loginBtn();" />
-            <input class="input-login registerbtn" type="button" value="Sign up" onclick="registerBtn();" />
-        </div>
+  <div class="login-wrapper">
+    <div class="login-content">
+      <input class="input-login loginbtn" type="button" value="Sign in" onclick="loginBtn();" />
+      <input class="input-login registerbtn" type="button" value="Sign up" onclick="registerBtn();" />
     </div>
+  </div>
 
-    <!--signin-->
-    <div id="signin-wrapper">
-        <div class="exit-btn" onclick="exitBtn('signin-wrapper');"></div>
-        <div class="signin-content">
-            <div class="login-content">
-                <form method="post">
-                    <input class="input-text" name="strEmail" type="email" placeholder="Email" id="loginbtn" />
-                    <input class="input-text" name="strPassw" type="password" placeholder="Password" id="loginbtn" />
-                    <input class="submit-btn-signin" name="strSignin" type="submit" value="Sign in" />
-                </form>
-            </div>
-        </div>
+  <!--signin-->
+  <div id="signin-wrapper">
+    <div class="exit-btn" onclick="exitBtn('signin-wrapper');"></div>
+    <div class="signin-content">
+      <div class="login-content">
+        <form method="post">
+          <input class="input-text" name="strEmail" type="email" placeholder="Email" id="loginbtn" />
+          <input class="input-text" name="strPassw" type="password" placeholder="Password" id="loginbtn" />
+          <input class="submit-btn-signin" name="strSignin" type="submit" value="Sign in" />
+        </form>
+      </div>
     </div>
+  </div>
 
-    <!--signup-->
-    <div id="register-wrapper">
-        <div class="exit-btn" onclick="exitBtn('register-wrapper');"></div>
-        <div class="register-content">
-            <div class="login-content">
-                <form method="post">
-                    <input class="input-text" name="strEmail_reg" type="email" placeholder="Email" id="loginbtn" />
-                    <input class="input-text" name="strUsername_reg" type="text" placeholder="Username" id="loginbtn" />
-                    <input class="input-text" name="strPassw_reg" type="password" placeholder="Password" id="loginbtn" />
-                    <input class="input-text" name="strPassw_reg2" type="password" placeholder="Re-enter Password" id="loginbtn" />
-                    <input class="submit-btn" name="strSignup" type="submit" value="Sign up" />
-                </form>
-            </div>
-        </div>
+  <!--signup-->
+  <div id="register-wrapper">
+    <div class="exit-btn" onclick="exitBtn('register-wrapper');"></div>
+    <div class="register-content">
+      <div class="login-content">
+        <form method="post">
+          <input class="input-text" name="strEmail_reg" type="email" placeholder="Email" id="loginbtn" />
+          <input class="input-text" name="strUsername_reg" type="text" placeholder="Username" id="loginbtn" />
+          <input class="input-text" name="strPassw_reg" type="password" placeholder="Password" id="loginbtn" />
+          <input class="input-text" name="strPassw_reg2" type="password" placeholder="Re-enter Password" id="loginbtn" />
+          <input class="submit-btn" name="strSignup" type="submit" value="Sign up" />
+        </form>
+      </div>
     </div>
-    
-    <!--error report-->
+  </div>
 
-    <!--include the php file-->
-    <?php include 'php/login.php'; ?>
-    
-    <script>
-        function loginBtn() {
-            document.getElementById('signin-wrapper').style.visibility = 'visible';
-        }
+  <!--error report-->
 
-        function registerBtn() {
-            document.getElementById('register-wrapper').style.visibility = 'visible';
-        }
+  <!--include the php file-->
+  <!--
+    <?php include 'php/login.php'; ?> -->
 
-        function exitBtn(e) {
-            document.getElementById(e).style.visibility = 'hidden';
-        }
-    </script>
+  <script src="js/pg-action.js"></script>
 </body>
 
 </html>
