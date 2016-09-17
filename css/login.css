@@ -1,0 +1,190 @@
+/* within 0~480 */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .bg-img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+        background-image: url(../assets/svg/bg-repeat.svg);
+    }
+}
+
+/* within 480~960*/
+
+@media (min-width: 481px) and (max-width: 1600px) {
+    .bg-img {
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        background: url(../assets/img/bg.JPG) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/* within 1600 and up*/
+
+@media (min-width: 1601px) {
+    .bg-img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+        background: url(../assets/img/bg.JPG) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+.login-wrapper {
+    width: 300px;
+    height: 118px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+.input-login {
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.84);
+}
+.login-content {
+    width: auto;
+    padding: 5px;
+}
+.loginbtn {
+    background-color: rgba(41, 128, 185, 0.84);
+}
+.loginbtn:hover {
+    background-color: rgba(41, 128, 185, 1);
+}
+.registerbtn {
+    background-color: rgba(22, 160, 133, 0.84);
+}
+.registerbtn:hover {
+    background-color: rgba(22, 160, 133, 1);
+}
+.input-text {
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
+}
+#signin-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 128, 185, 1);
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+}
+.signin-content {
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.submit-btn {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    border-style: none;
+    color: rgba(255, 255, 255, 0.84);
+    background-color: rgba(46, 204, 113, 0.84);
+}
+.submit-btn:hover {
+    background-color: rgba(46, 204, 113, 1);
+}
+.exit-btn {
+    width: 36px;
+    height: 36px;
+    opacity: 0.84;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    right: 0;
+    top: 0;
+    margin: 5px;
+    background: url(../assets/svg/exit_btn.svg) no-repeat;
+}
+.exit-btn:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#register-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 160, 133, 1);
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+}
+.register-content {
+    width: 300px;
+    height: 287px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.submit-btn-signin {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    border-style: none;
+    color: rgba(255, 255, 255, 0.84);
+    background-color: rgba(34, 167, 240, 0.84);
+}
+
+.submit-btn-signin:hover{
+    background-color: rgba(34, 167, 240, 1);
+}
+
+
